@@ -1,8 +1,8 @@
 name: Schedule Swiss
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour
-  workflow_dispatch: # Manual trigger
+    - cron: '0 * * * *' # Wakes up every hour
+  workflow_dispatch: # Gives you a manual "Start" button
 
 jobs:
   build:
