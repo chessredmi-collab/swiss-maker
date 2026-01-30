@@ -8,7 +8,7 @@ const defaults = {
 export const config = {
   server: 'https://lichess.org',
   /* server: 'http://l.org', */
-  team: 'lichess-swiss',
+  team: 'ultimate-blitz-zone',
   daysInAdvance: 21,
   dryRun: false,
   oauthToken: process.env['OAUTH_TOKEN'],
